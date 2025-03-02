@@ -13,6 +13,10 @@ main :: proc() {
 	print(mergeArrays(nums_03, nums_04))
 
 	free_all(context.temp_allocator)
+
+        // OUTPUT:
+        // [[1, 6], [2, 3], [3, 2], [4, 6]]
+        // [[1, 3], [2, 4], [3, 6], [4, 3], [5, 5]]
 }
 
 // Leetcode 2570. Merge Two 2D Arrays by Summing Values
